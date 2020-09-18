@@ -9,12 +9,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
 	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
-	
-	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
-		integrity="sha384-pdapHxIh7EYuwy6K7iE41uXVxGCXY0sAjBzaElYGJUrzwodck3Lx6IE2lA0rFREo" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/et-line@1.0.1/style.min.css"> -->
 
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
@@ -32,9 +26,9 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js"
 		integrity="sha512-YYiD5ZhmJ0GCdJvx6Xe6HzHqHvMpJEPomXwPbsgcpMFPW+mQEeVBU6l9n+2Y+naq+CLbujk91vHyN18q6/RSYw=="
 		crossorigin="anonymous" defer></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js"
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js"
 		integrity="sha512-gauu0VKZq9ry8hOZHgNpcB2ogbSDojs+XLDItpOLY0IyA+KigeuT/suwSdPgfU/TGYLAn4Nan4OeaCa/UPr70Q=="
-		crossorigin="anonymous" defer></script>
+		crossorigin="anonymous" defer></script> -->
 	<script src="./js/blocs.min.js" defer></script>
 
 	<title>La Chouette Agence - Entreprise de webdesign à Lyon</title>
@@ -55,8 +49,8 @@
 			<div class="container bloc-sm">
 				<nav class="navbar row">
 					<div class="navbar-header">
-						<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" width="214" height="40"
-								alt="logo" /></a>
+						<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" width="214"
+								height="40" alt="logo" /></a>
 						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle"
 							data-toggle="collapse" data-target=".navbar-1">
 							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
@@ -84,7 +78,8 @@
 			<div class="container bloc-lg">
 				<div class="row tight-width-whitespace">
 					<div class="col-sm-12">
-						<img src="img/logo.png" class="center-block image-resize-mode" width="100" height="100" alt="logo" />
+						<img src="img/logo.png" class="center-block image-resize-mode" width="100" height="100"
+							alt="logo" />
 						<h1 class="text-center hero-bloc-text tc-white ">
 							La chouette agence.
 						</h1>
@@ -277,77 +272,90 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<p class="text-center white">
-							La chouette agence - Agence web basée à Lyon.<br>
+							<strong>La chouette agence - Agence web basée à Lyon.</strong><br>
 						</p>
 						<div class="row row-no-gutters social">
-							<div class="col-sm-3">
-								<div class="text-center">
-									<a class="social" href="index.html" title="Lien Twitter"><span
-											class="fa fa-twitter icon-md"></span></a>
-								</div>
+							<div class="social__el">
+								<a href="index.html" title="Lien Twitter"><span
+										class="fa fa-twitter icon-md"></span></a>
 							</div>
-							<div class="col-sm-3">
-								<div class="text-center">
-									<a class="social" href="index.html" title="Lien Facebook"><span
-											class="fa fa-facebook icon-md"></span></a>
-								</div>
+
+							<div class="social__el">
+								<a href="index.html" title="Lien Facebook"><span
+										class="fa fa-facebook icon-md"></span></a>
 							</div>
-							<div class="col-sm-3">
-								<div class="text-center">
-									<a class="social" href="index.html" title="Lien Dribbble"><span
-											class="fa fa-dribbble icon-md"></span></a>
-								</div>
+
+							<div class="social__el">
+								<a href="index.html" title="Lien Dribbble"><span
+										class="fa fa-dribbble icon-md"></span></a>
 							</div>
-							<div class="col-sm-3">
-								<div class="text-center">
-									<a class="social" href="index.html" title="Lien Instagram"><span
-											class="fa fa-instagram icon-md"></span></a>
-								</div>
+							<div class="social__el">
+								<a href="index.html" title="Lien Instagram"><span
+										class="fa fa-instagram icon-md"></span></a>
 							</div>
-							<div class="keywords" style="color:#F3976C;">Agence web à paris, stratégie web, web design,
-								illustrations, design de site web, site web, web, internet, site internet, site</div>
 						</div>
 						<div class="row">
 							<div class="col-sm-4">
-								Partenaires
+								<strong>Partenaires</strong>
 								<ul>
-									<li class="footer_link" ><a class="" href="voiture.com" title="Lien partenaire">voiture.com</a></li>
-									<li class="footer_link" ><a href="pizza.com" title="Lien partenaire">pizza.com</a></li>
-									<li class="footer_link" ><a href="matoiture.com" title="Lien partenaire">matoiture.com</a></li>
-									<li class="footer_link" ><a href="immobilierseo.com" title="Lien partenaire">immobilierseo.com</a></li>
+									<li class="footer_link"><a class="" href="voiture.com"
+											title="Lien partenaire">voiture.com</a></li>
+									<li class="footer_link"><a href="pizza.com" title="Lien partenaire">pizza.com</a>
+									</li>
+									<li class="footer_link"><a href="matoiture.com"
+											title="Lien partenaire">matoiture.com</a></li>
+									<li class="footer_link"><a href="immobilierseo.com"
+											title="Lien partenaire">immobilierseo.com</a></li>
 								</ul>
 							</div>
 							<div class="col-sm-4">
-								Annuaires liste 1
+								<strong>Annuaires liste 1</strong>
 								<ul>
-									<li class="footer_link" ><a href="annuaireagence.com" title="Lien annuaire">annuaireagence.com</a></li>
-									<li class="footer_link" ><a href="annuaireseo.com" title="Lien annuaire">annuaireseo.com</a></li>
-									<li class="footer_link" ><a href="annuairemarketing.com" title="Lien annuaire">annuairemarketing.com</a>
+									<li class="footer_link"><a href="annuaireagence.com"
+											title="Lien annuaire">annuaireagence.com</a></li>
+									<li class="footer_link"><a href="annuaireseo.com"
+											title="Lien annuaire">annuaireseo.com</a></li>
+									<li class="footer_link"><a href="annuairemarketing.com"
+											title="Lien annuaire">annuairemarketing.com</a>
 									</li>
-									<li class="footer_link" ><a href="123seoture.com" title="Lien annuaire">123seo.com</a></li>
-									<li class="footer_link" ><a href="123site.com" title="Lien annuaire">123site.com</a></li>
-									<li class="footer_link" ><a href="annuairewordpress.com" title="Lien annuaire">annuairewordpress.com</a>
+									<li class="footer_link"><a href="123seoture.com"
+											title="Lien annuaire">123seo.com</a></li>
+									<li class="footer_link"><a href="123site.com" title="Lien annuaire">123site.com</a>
 									</li>
-									<li class="footer_link" ><a href="listeagence.com" title="Lien annuaire">listeagence.com</a></li>
-									<li class="footer_link" ><a href="meilleuresagencesparis.com"
+									<li class="footer_link"><a href="annuairewordpress.com"
+											title="Lien annuaire">annuairewordpress.com</a>
+									</li>
+									<li class="footer_link"><a href="listeagence.com"
+											title="Lien annuaire">listeagence.com</a></li>
+									<li class="footer_link"><a href="meilleuresagencesparis.com"
 											title="Lien annuaire">meilleuresagencesparis.com</a></li>
-									<li class="footer_link" ><a href="listeseo.com" title="Lien annuaire">listeseo.com</a></li>
+									<li class="footer_link"><a href="listeseo.com"
+											title="Lien annuaire">listeseo.com</a></li>
 								</ul>
 							</div>
 							<div class="col-sm-4">
-								Annuaires liste 2
+								<strong>Annuaires liste 2</strong>
 								<ul>
-									<li class="footer_link" ><a href="betterseo.com" title="Lien annuaire">betterseo.com</a></li>
-									<li class="footer_link" ><a href="ameliorerseo.com" title="Lien annuaire">ameliorerseo.com</a></li>
-									<li class="footer_link" ><a href="seojuicelien.com" title="Lien annuaire">seojuicelien.com</a></li>
-									<li class="footer_link" ><a href="meilleursliens.com" title="Lien annuaire">meilleursliens.com</a></li>
-									<li class="footer_link" ><a href="liensagogo.com" title="Lien annuaire">liensagogo.com</a></li>
-									<li class="footer_link" ><a href="backlink.com" title="Lien annuaire">backlink.com</a></li>
-									<li class="footer_link" ><a href="linkjuiceannuaire.com" title="Lien annuaire">linkjuiceannuaire.com</a>
+									<li class="footer_link"><a href="betterseo.com"
+											title="Lien annuaire">betterseo.com</a></li>
+									<li class="footer_link"><a href="ameliorerseo.com"
+											title="Lien annuaire">ameliorerseo.com</a></li>
+									<li class="footer_link"><a href="seojuicelien.com"
+											title="Lien annuaire">seojuicelien.com</a></li>
+									<li class="footer_link"><a href="meilleursliens.com"
+											title="Lien annuaire">meilleursliens.com</a></li>
+									<li class="footer_link"><a href="liensagogo.com"
+											title="Lien annuaire">liensagogo.com</a></li>
+									<li class="footer_link"><a href="backlink.com"
+											title="Lien annuaire">backlink.com</a></li>
+									<li class="footer_link"><a href="linkjuiceannuaire.com"
+											title="Lien annuaire">linkjuiceannuaire.com</a>
 									</li>
-									<li class="footer_link" ><a href="remontersurgoogle.com" title="Lien annuaire">remontersurgoogle.com</a>
+									<li class="footer_link"><a href="remontersurgoogle.com"
+											title="Lien annuaire">remontersurgoogle.com</a>
 									</li>
-									<l class="footer_link"><a href="vraiseofiable.com" title="Lien annuaire">vraiseofiable.com</a></li>
+									<li class="footer_link"><a href="vraiseofiable.com"
+											title="Lien annuaire">vraiseofiable.com</a></li>
 								</ul>
 							</div>
 						</div>
