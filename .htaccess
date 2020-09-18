@@ -1,0 +1,14 @@
+//Caching schema
+<FilesMatch "\.(jpg|png|css|js|webp)$">
+Header set Cache-Control "public, proxy-revalidate, max-age=1928448000"
+</FilesMatch>
+
+//Prevent viewing of .htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+//Prevent directory listings
+Options All -Indexes
+ 
