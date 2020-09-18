@@ -332,10 +332,10 @@ a:hover {
     text-align: inherit;
 }
 
-.nav > li a:hover,
+/* .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
-}
+} */
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
@@ -651,7 +651,10 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
+}
+a:hover {
+    text-decoration: underline;
 }
 
 .container {
@@ -677,7 +680,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -890,6 +893,12 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    .footer_link {
+        padding: 14px;
+    }
+    .footer_link > a {
+        padding: 16px;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
